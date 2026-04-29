@@ -6,10 +6,47 @@
     color: red;
  }
 
- .titulo{
-    color: blue;
+ 
+ .listarecetas {
+background-color: rgb(241, 241, 91);
+
  }
 
- .listarecetas {
-background-color: yellow;
- }
+.titulo {
+  /* Layout (posición y centrado) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Tamaño y espaciado */
+  height: 40px;
+  margin: 20px auto;
+  padding: 12px;
+
+  /* Tipografía */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Estilo base */
+  border-radius: 10px;
+  width: 60%;
+}
+
+.titulo.gaz {
+  background-color: #d8f3dc;
+  border: 1px solid #b7e4c7;
+  color: #2d6a4f; /* verde más intenso */
+}
+
+/* 🍝 Carbonara → crema pastel */
+.titulo.car {
+  background-color: #fff3d6;
+  border: 1px solid #ffe0a3;
+  color: #8a5a00; /* marrón suave (tipo pasta) */
+}
+
+/* 🏠 Main → verde neutro */
+.titulo.main {
+  background-color: #e6f4ea;
+  border: 1px solid #cde7d8;
+  color: #344e41; /* verde grisáceo */
+}
