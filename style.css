@@ -1,4 +1,8 @@
- .carbonararec a{
+body{
+   background-color: #2d6a4f;
+}
+
+.carbonararec a{
     color: green;
  }
 
@@ -7,10 +11,23 @@
  }
 
  
- .listarecetas {
-background-color: rgb(241, 241, 91);
+.listarecetas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
- }
+  width: 60%;
+  margin: 0 auto; /* centra la caja */
+
+  background-color: rgb(91, 241, 179);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+}
 
 .titulo {
   /* Layout (posición y centrado) */
@@ -46,7 +63,7 @@ background-color: rgb(241, 241, 91);
 
 /* 🏠 Main → verde neutro */
 .titulo.main {
-  background-color: #e6f4ea;
+  background-color: #574c57;
   border: 1px solid #cde7d8;
-  color: #344e41; /* verde grisáceo */
+  color: #dea0cd; /* verde grisáceo */
 }
