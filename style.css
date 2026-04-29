@@ -1,32 +1,37 @@
 body{
    background-color: #2d6a4f;
 }
-
-.carbonararec a{
-    color: green;
- }
-
- .gazpachorec a{
-    color: red;
- }
-
  
 .listarecetas {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+
   display: flex;
   flex-direction: column;
-  gap: 10px;
-
-  width: 60%;
-  margin: 0 auto; /* centra la caja */
-
-  background-color: rgb(91, 241, 179);
-  padding: 15px;
-  border-radius: 10px;
+  gap: 10px; /* ← separación entre elementos */
 }
 
-li {
+.listarecetas li {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+
   text-align: center;
-  list-style: none;
+  cursor: pointer; 
+  transition: 0.2s;
+}
+
+.listarecetas a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.listarecetas li:hover {
+  background-color: #d09bef;
+  transform: scale(1.02);
 }
 
 .titulo {
