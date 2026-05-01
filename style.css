@@ -50,7 +50,7 @@ body{
 
   /* Estilo base */
   border-radius: 10px;
-  width: 60%;
+  width: 80%;
 }
 
 .titulo.gaz {
@@ -71,4 +71,39 @@ body{
   background-color: #574c57;
   border: 1px solid #cde7d8;
   color: #dea0cd; /* verde grisáceo */
+}
+
+
+.contenedor {
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.izquierda {
+  width: 40%;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.derecha {
+  width: 200%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.paso {
+    margin-bottom: 30px;
+}
+
+.paso img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 10px;
 }
