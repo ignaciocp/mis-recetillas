@@ -208,3 +208,65 @@ img {
   transform: translateY(-50%) scale(1.15);
   background: #6ed3b2;
 }
+
+/* ===================== */
+/* 📱 MÓVIL */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+  /* LAYOUT EN COLUMNA */
+  .contenedor {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  /* IZQUIERDA (ya no sticky) */
+  .izquierda {
+    width: 100%;
+    position: static; /* 👈 quita sticky */
+  }
+
+  /* DERECHA */
+  .derecha {
+    width: 100%;
+  }
+
+  /* PASOS EN VERTICAL */
+  .paso {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .paso p {
+    width: 100%;
+  }
+
+  .paso img {
+    width: 100%;
+  }
+
+  /* NUMEROS MÁS PEQUEÑOS */
+  .pasos li {
+    padding-left: 40px;
+  }
+
+  .pasos li::before {
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  /* TITULO */
+  .titulo {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  /* LISTA HOME */
+  .listarecetas {
+    width: 90%;
+  }
+
+}
