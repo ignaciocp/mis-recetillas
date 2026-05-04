@@ -44,7 +44,7 @@ img {
 }
 
 .listarecetas li:hover {
-  background-color: #d09bef;
+  background-color: #ccf65b;
   transform: scale(1.02);
 }
 
@@ -71,7 +71,7 @@ img {
   font-weight: bold;
 
   border-radius: 12px;
-  width: 80%;
+  width: 55%;
 }
 
 .titulo.gaz {
@@ -87,9 +87,9 @@ img {
 }
 
 .titulo.main {
-  background-color: #574c57;
+  background-color: #bc92bc;
   border: 1px solid #cde7d8;
-  color: #dea0cd;
+  color: #cbf208;
 }
 
 
